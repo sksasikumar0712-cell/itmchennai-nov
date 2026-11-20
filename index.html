@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Explore 31 LTM technology job listings shown for Chennai in November 2026. Search roles, filter by experience, copy job IDs and apply on the official LTM careers site. Curated by productwithsasi.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="productwithsasi • Chennai Careers">
+  <meta property="og:title" content="31 LTM Tech Jobs in Chennai | productwithsasi">
+  <meta property="og:description" content="Explore a curated November 2026 snapshot of 31 LTM roles in Chennai. Search, filter and head to official careers to apply.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="31 LTM Tech Jobs in Chennai">
+  <meta name="twitter:description" content="A searchable, creator-curated snapshot of official LTM Chennai tech careers.">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+  <title>LTM Chennai Jobs | 31 Curated Roles | productwithsasi</title>
+</head>
+<body>
+  <a class="skip-link" href="#directory">Skip to available roles</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="creator" href="https://www.instagram.com/productwithsasi/" target="_blank" rel="noopener noreferrer" aria-label="Visit productwithsasi on Instagram">
+        <img class="avatar" src="https://raw.githubusercontent.com/sksasikumar0712-cell/UnitedHealth-Group-India-Tech-Jobs-Directory/main/public/sasi.webp" alt="" width="42" height="42">
+        <span><span class="creator-name">productwithsasi</span><span class="creator-tagline">A little direction for your next big move.</span></span>
+      </a>
+      <div class="header-right">
+        <span class="header-label">CHENNAI CAREERS</span>
+        <a href="https://www.linkedin.com/in/sasikumarsampath/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Sasi on LinkedIn"><span class="social-in" aria-hidden="true">in</span><span>Let’s connect</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Chennai tech job directory</p>
+        <h1 id="hero-title">Your next chapter.<br><em>LTM, Chennai.</em></h1>
+        <p class="description">31 technology roles from LTM’s official Chennai-filtered careers page, all in one place. Explore the openings, find your fit and continue to the employer’s site to apply.</p>
+        <div class="hero-tags"><span>No sign-up needed</span><span>Official employer careers</span><span>Free to use</span></div>
+      </div>
+      <aside class="hero-visual" aria-label="Career opportunities at LTM, snapshot from 20 November 2026">
+        <div class="visual-head"><span class="ltm-mark">LTM</span><span class="snapshot-label">20 Nov 2026 snapshot</span></div>
+        <p class="visual-kicker">DISCOVER YOUR NEXT MOVE</p>
+        <div class="visual-big">Build your<br><strong>next chapter.</strong></div>
+        <div class="visual-stats">
+          <div><b id="total-jobs">31</b><small>listed roles</small></div>
+          <div><b id="total-categories">9</b><small>job categories</small></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="directory" id="directory" aria-labelledby="directory-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Find your fit</p>
+          <h2 id="directory-title">Explore the opportunities <span>31</span></h2>
+        </div>
+        <span class="section-aside">Curated collection · 20 November 2026</span>
+      </div>
+    </section>
+  </main>
+
+  <div class="filters-wrap" aria-label="Search and filter opportunities">
+    <div class="shell">
+      <div class="input-row">
+        <div class="search-field">
+          <label for="search" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Search job title, skills, category or job ID</label>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+          <input id="search" type="search" autocomplete="off" placeholder="Search role, skill or job ID..." aria-controls="jobs-grid">
+        </div>
+        <div class="select-shell">
+          <label for="experience" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Filter by minimum experience</label>
+          <select id="experience" aria-label="Minimum experience"><option value="all">Any experience</option><option value="0-5">Min. 0–5 years</option><option value="6-10">Min. 6–10 years</option><option value="11+">Min. 11+ years</option></select>
+        </div>
+        <div class="select-shell">
+          <label for="sort" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Sort listed roles</label>
+          <select id="sort" aria-label="Sort roles"><option value="default">Latest listed</option><option value="low">Experience: low</option><option value="high">Experience: high</option><option value="az">Title: A to Z</option></select>
+        </div>
+      </div>
+      <div class="chips" role="group" id="category-filters" aria-label="Filter by job category"></div>
+    </div>
+  </div>
+
+  <div class="shell">
+    <div class="list-status">
+      <p role="status" aria-live="polite"><strong id="result-total">31</strong> <span id="results-description">roles match your filters</span> · <span id="current-filter">Across Chennai</span></p>
+      <button type="button" class="clear-btn" id="clear-filters" hidden>Clear filters</button>
+    </div>
+
+    <div class="jobs-grid" id="jobs-grid" aria-label="LTM careers directory">
+      <p>Loading curated opportunities…</p>
+    </div>
+    <div class="empty-state" id="empty-state" hidden>
+      <h3>No matching jobs found</h3>
+      <p>Try a different keyword or a wider experience range.</p>
+      <button type="button" id="empty-clear">Clear all filters</button>
+    </div>
+
+    <section class="notice" aria-labelledby="notice-heading">
+      <div>
+        <h2 id="notice-heading">A quick note before you apply</h2>
+        <p>These 31 listings were visible on the official portal on 20 Nov 2026. They are not live-synced, and roles may change or close. The screenshot didn't include unique per-job application URLs. Copy the Job ID, open official careers and locate that role before applying. Never pay anyone for a job.</p>
+      </div>
+      <a href="#" data-portal target="_blank" rel="noopener noreferrer">Visit LTM careers ↗</a>
+    </section>
+
+    <section class="about" aria-labelledby="about-heading">
+      <div>
+        <p class="eyebrow">About the company</p>
+        <h2 id="about-heading">Technology, at scale.</h2>
+      </div>
+      <div>
+        <p>LTM (formerly LTIMindtree) is a global technology services company and part of the Larsen &amp; Toubro group. This collection focuses on Chennai-filtered opportunities in software, architecture, infrastructure, AI systems, quality engineering and technology management.</p>
+        <p class="small">This is an independent directory created by productwithsasi, not an official LTM website or hiring partner. Several roles list Chennai alongside other cities. Check the employer’s role details, required experience, location and application status before you apply.</p>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <span>Curated with care by <strong>productwithsasi</strong></span>
+      <span>Good opportunities deserve to be shared. · Updated 20 Nov 2026</span>
+    </footer>
+  </div>
+
+  <div class="sticky-footer" role="complementary" aria-label="Creator social profile">
+    <div class="shell sticky-footer-inner">
+      <div class="footer-message">Find something worth applying for?<small>More curated career discoveries with Sasi.</small></div>
+      <a class="footer-cta" href="https://www.linkedin.com/in/sasikumarsampath/" target="_blank" rel="noopener noreferrer"><span class="social-in" aria-hidden="true">in</span>Follow me on LinkedIn</a>
+    </div>
+  </div>
+  <div id="live-feedback" role="status" aria-live="polite" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap"></div>
+</body>
+</html>
