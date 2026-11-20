@@ -16,6 +16,9 @@ The screenshot did not expose unique application URLs for each job. Every “Off
 
 This is an independent directory by productwithsasi, not endorsed by LTM. **LTM does not charge candidates for recruitment**. Verify all vacancies and details on the employer's website.
 
+## Consistent productwithsasi branding
+Use the shared visual identity across all employer directories: blue `#0a66c2`, light blue `#edf5ff`, a white background and the creator-first header and LinkedIn footer from the UnitedHealth Group India Tech Jobs Directory. **Do not copy employer colors or put employer logos in the hero or favicon.** Show the employer name as ordinary text to identify the listings. The blue arrow favicon is shared with the reference directory.
+
 ## Running locally
 No build tools or dependencies required:
 
